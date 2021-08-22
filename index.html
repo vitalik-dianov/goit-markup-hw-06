@@ -83,6 +83,56 @@
               <use href="./images/svg/icons.svg#close"></use>
             </svg>
           </button>
+
+          <form class="modal-form">
+            <h2 class="modal-title">Оставьте свои данные, мы вам перезвоним</h2>
+            <label class="modal-label">
+              Имя
+              <input type="text" name="name" class="modal-input" />
+              <svg class="input-icon">
+                <use href="./images/svg/icons.svg#input-name"></use>
+              </svg>
+            </label>
+            <label class="modal-label">
+              Телефон
+              <input type="tel" name="phone" class="modal-input" />
+              <svg class="input-icon">
+                <use href="./images/svg/icons.svg#input-phone"></use>
+              </svg>
+            </label>
+            <label class="modal-label">
+              Почта
+              <input type="email" name="email" class="modal-input" />
+              <svg class="input-icon">
+                <use href="./images/svg/icons.svg#input-email"></use>
+              </svg>
+            </label>
+            <label class="modal-label modal-comment">
+              Комментарий
+              <textarea
+                name="comment"
+                class="modal-comment-area"
+                placeholder="Введите текст"
+              ></textarea>
+            </label>
+
+            <label class="modal-label modal-agree">
+              <input
+                type="checkbox"
+                class="visually-hidden modal-checkbox"
+                name="agree"
+              />
+              <svg class="checkbox-icon">
+                <use href="./images/svg/icons.svg#checkbox"></use>
+              </svg>
+              <svg class="checked-icon">
+                <use href="./images/svg/icons.svg#checked"></use>
+              </svg>
+              Соглашаюсь с рассылкой и принимаю
+              <a href="#" class="modal-agree-link">Условия договора</a>
+            </label>
+            <button type="submit" class="modal-submit">Отправить</button>
+          </form>
         </div>
       </div>
       <section class="about section">
